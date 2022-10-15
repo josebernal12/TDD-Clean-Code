@@ -4,6 +4,7 @@
         "project": "./tsconfig.json"
     },
     "rules":{
-        "@typescript-eslint/no-redeclare": "off"
+        "@typescript-eslint/no-redeclare": "off",
+        "@typescript-eslint/space-before-blocks": "off"
     }
 }
