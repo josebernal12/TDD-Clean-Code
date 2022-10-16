@@ -5,10 +5,12 @@ describe('FoodModel', () => {
         const foodModel = new Food({
             name: 'Seafood',
             description: 'the Seafood is very expensive',
-            price: 500
+            price: 500,
+            inventory: 20
         })
         expect(foodModel.getName()).toEqual('Seafood')
         expect(foodModel.getDescription()).toEqual('the Seafood is very expensive')
         expect(foodModel.getPrice()).toBe(500)
+        expect(foodModel.getInventory()).toBe(20)
     })
 })
